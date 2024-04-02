@@ -9,11 +9,6 @@ import datetime
 import time
 import json
 
-altHook = 'https://discord.com/api/webhooks/948309425599438958/25zHfmfAYw1v_5CD-0kTlU7EoGHnITfSqMJzHVja1d2fTwhl43MXn7pyY84DzE2Pzy0g'
-hookAltLog = Webhook(f'{altHook}')
-
-hypixelKey = 'a7c6b646-85ce-4b96-ac24-48aefe257058'
-
 con = con = sqlite3.connect("alt-db.db")
 cur = con.cursor()
 
@@ -1518,7 +1513,7 @@ async def ign(ctx, ping: discord.Member = None):
 
 #=========================================================================================================#
 
-client.run('OTM5MDczMjc4ODM4OTkyODk2.YfziJA.Xlfwev-WGKZiQaOk6SNE66DyFpw')
+client.run('TOKEN')
 con.close()
 
 #=========================================================================================================#
